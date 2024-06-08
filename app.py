@@ -37,4 +37,13 @@ for param in parameters["Web Performance"]:
 
 st.dataframe(webperformance)
 
-st.write(categories)
+Categories = list(categories.keys())
+webshow = {"param": [],
+           "score" : [],
+           }
+for param in Categories:
+    webshow['param'].append(param)
+    webshow['score'].append(round(categories[param]["score"],2))
+
+st.dataframe(webshow)
+
