@@ -47,3 +47,4 @@ for param in Categories:
 
 st.dataframe(webshow)
 
+st.plotly_chart()
