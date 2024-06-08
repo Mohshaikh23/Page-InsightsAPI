@@ -1,0 +1,44 @@
+{
+  "Web Performance": [
+    "first-contentful-paint",
+    "largest-contentful-paint",
+    "total-blocking-time",
+    "cumulative-layout-shift",
+    "speed-index",
+    "interactive"
+  ],
+  "SEO": [
+    "meta-description",
+    "is-crawlable",
+    "canonical",
+    "hreflang",
+    "robots-txt",
+    "structured-data",
+    "document-title"
+  ],
+  "Accessibility": [
+    "color-contrast",
+    "image-alt",
+    "label",
+    "html-lang-valid",
+    "bypass",
+    "landmark-one-main",
+    "aria-roles",
+    "aria-allowed-attr",
+    "aria-valid-attr",
+    "aria-required-attr"
+  ],
+  "Best Practices": [
+    "uses-responsive-images",
+    "uses-rel-preconnect",
+    "uses-rel-preload",
+    "deprecations",
+    "no-document-write",
+    "geolocation-on-start",
+    "uses-optimized-images",
+    "uses-text-compression",
+    "efficient-animated-content",
+    "legacy-javascript"
+  ],
+  "Security": ["csp-xss", "is-on-https", "no-unload-listeners"]
+}
